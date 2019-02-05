@@ -12,7 +12,7 @@ namespace TQL.Infra.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseInMemoryDatabase("InMemoryProvider");
+            optionsBuilder.UseInMemoryDatabase("TicketsDB");
         }
 
         public DbSet<Ticket> Tickets { get; set; }

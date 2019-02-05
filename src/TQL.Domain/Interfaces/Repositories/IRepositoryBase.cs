@@ -6,5 +6,9 @@ namespace TQL.Domain.Interfaces.Repositories
         where TEntity : class
     {
         IEnumerable<TEntity> GetAll();
+
+        void Add(TEntity obj);
+
+        void Dispose();
     }
 }

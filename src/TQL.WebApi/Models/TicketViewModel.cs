@@ -8,6 +8,5 @@ namespace TQL.WebApi.Models
         public string Description { get; set; }
         public string Author { get; set; }
         public DateTime CreationDate { get; set; }
-        public DateTime Updated { get; set; }
     }
 }

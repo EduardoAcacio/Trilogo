@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TQL.Infra.IoC", "TQL.Infra.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TQL.WebApi", "TQL.WebApi\TQL.WebApi.csproj", "{DB7ECA62-7AA8-49F5-9DFD-DEEB1AB6A1D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TQL.Application", "TQL.Application\TQL.Application.csproj", "{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{DB7ECA62-7AA8-49F5-9DFD-DEEB1AB6A1D0}.Release|x64.Build.0 = Release|Any CPU
 		{DB7ECA62-7AA8-49F5-9DFD-DEEB1AB6A1D0}.Release|x86.ActiveCfg = Release|Any CPU
 		{DB7ECA62-7AA8-49F5-9DFD-DEEB1AB6A1D0}.Release|x86.Build.0 = Release|Any CPU
+		{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}.Debug|x64.Build.0 = Debug|Any CPU
+		{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}.Debug|x86.Build.0 = Debug|Any CPU
+		{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}.Release|x64.ActiveCfg = Release|Any CPU
+		{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}.Release|x64.Build.0 = Release|Any CPU
+		{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}.Release|x86.ActiveCfg = Release|Any CPU
+		{D37B1C56-8C7C-4C1E-91E3-6042A1CAFF6B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
